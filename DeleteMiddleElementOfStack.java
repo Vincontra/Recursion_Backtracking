@@ -1,5 +1,4 @@
 import java.util.Stack;
-
 public class DeleteMiddleElementOfStack {
     public static void main(String[] args) {
         Stack<Integer>s1=new Stack<>();
@@ -18,9 +17,6 @@ public class DeleteMiddleElementOfStack {
         for (int i=0;i<s1.size();i++){
             System.out.println(s1.elementAt(i));
         }
-
-
-
     }
     public static void delete(Stack<Integer>s1,int tot){
         if (s1.size()==(tot+1)/2){
