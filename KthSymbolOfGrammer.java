@@ -28,9 +28,6 @@ public class KthSymbolOfGrammer {
 
         System.out.println(func(4,8));
 
-
-
-
     }
     public static int func(int n,int k){
         if (n==1&&k==1){
