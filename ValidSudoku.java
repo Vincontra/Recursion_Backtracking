@@ -1,7 +1,6 @@
 public class ValidSudoku {
     class Solution {
         public boolean isValidSudoku(char[][]arr) {
-
             for(int i=0;i<9;i++){
                 boolean check[]=new boolean[10];
                 for(int j=0;j<9;j++){
@@ -14,7 +13,6 @@ public class ValidSudoku {
                     }
                 }
             }
-
             for(int i=0;i<9;i++){
                 boolean check[]=new boolean[10];
                 for(int j=0;j<9;j++){
@@ -50,8 +48,6 @@ public class ValidSudoku {
                 i+=3;
             }
             return true;
-
-
         }
     }
 }
